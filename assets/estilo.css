@@ -1,0 +1,88 @@
+* {
+  font-family: 'Edu QLD Beginner', cursive;
+  color: #1A5276;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #e0e0e0;
+  
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #9e9c9c, -20px -20px 60px #ffffff;
+  z-index: 2;
+}
+
+#botonsito {
+  margin-top: 60px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  border: none;
+  background: #1A5276;
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow:  20px 20px 60px #9e9c9c, -20px -20px 60px #ffffff4b;
+  transition: .3s;
+  z-index: 1;
+}
+
+#botonsito:hover {
+  transform: scale(1.05);
+  background-color: #1F618D;
+}
+
+#randomMichis {
+  display: flex;
+  gap: 20px;
+}
+
+.michiContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonMichiFavorites {
+  padding: 10px;
+  border: none;
+  background-color: #1A5276;
+  color:#e0e0e0;
+  border-radius: 20px;
+  z-index: 3;
+  transition: .3s ease-in-out;
+  margin: 0 40px;
+}
+
+.buttonMichiFavorites:hover {
+  transform: scale(1.05);
+  background-color: #1F618D;
+  box-shadow:  5px 5px 60px #ffffff
+}
+
+.title {
+  margin-top: 60px
+}
+
+#favoritesMichis {
+  width: 100%;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  justify-items: center;
+}
+
+
+
