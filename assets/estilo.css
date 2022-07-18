@@ -84,5 +84,10 @@ img {
   justify-items: center;
 }
 
+.noMichis {
+  grid-column: 3/4;
+  text-align: center;
+}
+
 
 

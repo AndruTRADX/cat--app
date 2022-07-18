@@ -59,7 +59,7 @@ async function loadFavoritesMichis(){
     }
 
     if(catJSON.length === 0){
-      favorites.innerHTML = `<h3 style="color:#626567">Aún no has añadido un gatito a favoritos.</h3>`
+      favorites.innerHTML = `<h3 style="color:#626567" class="noMichis">Aún no has añadido un gatito a favoritos.</h3>`
     }
 
     else {
